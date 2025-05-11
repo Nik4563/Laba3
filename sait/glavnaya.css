@@ -1,0 +1,148 @@
+.Logo {
+    width: 150px;
+    height: auto;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.headtel p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    font-size: 25px;
+}
+
+nav ul li a {
+    padding: 8px 30px;
+    background-color: rgb(255, 249, 191);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+}
+
+nav ul li a:hover {
+    background-color: rgb(235, 189, 63);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 189, 63);
+    border-radius: 4px;
+    border: none;
+}
+
+form button:active {
+    color: rgb(235, 189, 63);
+    background-color: white;
+}
+
+body .Title {
+    text-align: center;
+}
+
+article {
+    background-color: #f5f5f5;
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article img {
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+article button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 189, 63);
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-top: auto;
+}
+
+article button:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(235, 189, 63);
+}
+
+article:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.525);
+}
+
+.Kartochka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 5px 0;
+}
+
+footer ul li a:hover {
+    color: rgb(235, 189, 63);
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
